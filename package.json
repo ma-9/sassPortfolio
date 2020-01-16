@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Responsive Portfolio using SASS",
   "main": "index.js",
-  "homepage": "https://ma-9.github.io/portfolio_using_sass",
+  "homepage": "https://ma-9.github.io/sassPortfolio",
   "scripts": {
     "scss": "node-sass -w scss/ -o dist/css/ --recursive",
     "deploy": "gh-pages -d dist"
