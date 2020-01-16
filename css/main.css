@@ -215,7 +215,7 @@ main {
   align-items: center;
   margin-top: 1rem; }
   .boxes div {
-    font-size: 0.9rem;
+    font-size: 1.3rem;
     border: solid 3px #fff;
     padding: 1.5rem 2.5rem;
     margin-bottom: 3rem;
@@ -320,4 +320,6 @@ main {
     grid-template-columns: 1fr; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job-1' 'job-2' 'job-3';
-    grid-template-columns: 1fr; } }
+    grid-template-columns: 1fr; }
+  #contact .boxes div {
+    font-size: 0.9rem; } }

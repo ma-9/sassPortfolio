@@ -124,4 +124,12 @@
       'job-3';
     grid-template-columns: 1fr;
   }
+
+  #contact {
+    .boxes {
+      div {
+        font-size: 0.9rem;
+      }
+    }
+  }
 }
