@@ -1,0 +1,20 @@
+{
+  "name": "modern-portfolio",
+  "version": "1.0.0",
+  "description": "Responsive Portfolio using SASS",
+  "main": "index.js",
+  "homepage": "https://ma-9.github.io/portfolio_using_sass",
+  "scripts": {
+    "scss": "node-sass -w scss/ -o dist/css/ --recursive",
+    "deploy": "gh-pages -d dist"
+  },
+  "keywords": [
+    "node-sass"
+  ],
+  "author": "ma-9",
+  "license": "MIT",
+  "dependencies": {
+    "gh-pages": "^2.2.0",
+    "node-sass": "^4.13.0"
+  }
+}
