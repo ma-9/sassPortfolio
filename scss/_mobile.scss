@@ -15,6 +15,7 @@
   main {
     align-items: center;
     text-align: center;
+    padding: 2rem;
 
     .lg-heading {
       margin-top: 5vh !important;
@@ -35,7 +36,7 @@
   }
 
   .menu-nav {
-    height: 60vh;
+    height: 50vh;
     transform: translate3d(-100%, 0, 0);
 
     .nav-item > .nav-link {
@@ -44,13 +45,37 @@
   }
 
   .menu-branding {
-    height: 40vh;
+    height: 50vh;
     transform: translate3d(100%, 0, 0);
 
     .portrait {
       background: $small-profile-image;
       width: 150px;
       height: 150px;
+    }
+  }
+
+  #about {
+    h1 {
+      font-size: 3rem;
+    }
+  }
+
+  #work {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1rem;
+    }
+  }
+
+  #contact {
+    h1 {
+      font-size: 3rem;
+    }
+    h2 {
+      font-size: 1rem;
     }
   }
 

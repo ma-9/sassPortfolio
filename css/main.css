@@ -264,7 +264,8 @@ main {
 @media screen and (max-width: 768px) {
   main {
     align-items: center;
-    text-align: center; }
+    text-align: center;
+    padding: 2rem; }
     main .lg-heading {
       margin-top: 5vh !important;
       line-height: 1;
@@ -278,17 +279,27 @@ main {
     div.menu-branding.show {
       transform: translate3d(0, 0, 0); }
   .menu-nav {
-    height: 60vh;
+    height: 50vh;
     transform: translate3d(-100%, 0, 0); }
     .menu-nav .nav-item > .nav-link {
       font-size: 5vw; }
   .menu-branding {
-    height: 40vh;
+    height: 50vh;
     transform: translate3d(100%, 0, 0); }
     .menu-branding .portrait {
       background: url(../img/portrait_small.jpg);
       width: 150px;
       height: 150px; }
+  #about h1 {
+    font-size: 3rem; }
+  #work h1 {
+    font-size: 3rem; }
+  #work h2 {
+    font-size: 1rem; }
+  #contact h1 {
+    font-size: 3rem; }
+  #contact h2 {
+    font-size: 1rem; }
   .about-info {
     grid-template-areas: 'bioimage' 'bio' 'job-1' 'job-2' 'job-3';
     grid-template-columns: 1fr; }

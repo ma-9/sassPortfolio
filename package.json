@@ -5,7 +5,7 @@
   "main": "index.js",
   "homepage": "https://ma-9.github.io/sassPortfolio",
   "scripts": {
-    "scss": "node-sass -w scss/ -o dist/css/ --recursive",
+    "scss": "node-sass -w scss/ -o css/ --recursive",
     "deploy": "gh-pages -d dist"
   },
   "keywords": [
